@@ -4,9 +4,7 @@
 /vendor
 /CompileScoreData
 /deps
-/Resources/models
-/Documentation/Doxygen/gen_docs
-/Documentation/Doxygen/themes
+/SplashEXE
 *.sln
 *.vcxproj
 *.vcxproj.filters
