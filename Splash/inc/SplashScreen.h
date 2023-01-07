@@ -5,4 +5,8 @@
 	using SplashScreen = Splash::SplashScreenWindows;
 #elif SPLASH_PLATFORM_UNIX
 	using SplashScreen = SplashScreenUnix;
+#else 
+#pragma message ( "WARNING: [Splash] No platform define has been defined." ) 
+#include "Splash/Platforms/SplashScreenEmpty.h"
+	using SplashScreen = Splash::SplashScreenEmpty;
 #endif
