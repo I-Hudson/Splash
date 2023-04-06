@@ -7,6 +7,9 @@ workspace "Splash"
     startproject "SplashScreen"
     staticruntime "off"
     location "../"
+    
+    language ("C++")
+    cppdialect ("C++20")
 
     configurations
     {
@@ -47,7 +50,7 @@ workspace "Splash"
 
     filter "system:Windows"
     	system "windows"
-    	toolset("msc-v142")
+    	toolset("msc-v143")
         defines
         {
             "SPLASH_PLATFORM_WINDOWS"

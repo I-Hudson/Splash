@@ -1,9 +1,10 @@
 project "SplashScreen"  
-    language "C++"
-    cppdialect "C++17"
     configurations { "Debug", "Debug_DLL", "Release", "Release_DLL" } 
     location "./"
     
+    language ("C++")
+    cppdialect ("C++20")
+
     targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
     objdir ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
     debugdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")

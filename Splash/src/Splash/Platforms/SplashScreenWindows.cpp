@@ -5,7 +5,7 @@
 #include "strsafe.h"
 #pragma comment( lib, "windowscodecs.lib" )
 
-constexpr wchar_t* c_ClassName = L"SplashScreenClassName";
+constexpr const wchar_t* c_ClassName = L"SplashScreenClassName";
 
 namespace Splash
 {

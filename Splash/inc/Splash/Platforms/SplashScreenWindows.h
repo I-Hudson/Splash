@@ -57,7 +57,7 @@ namespace Splash
 		HBITMAP LoadImageFromFile(const std::string& filePath);
 		HBITMAP CreawteBitmapFromIWICBitmap(IWICBitmapSource*& source);
 
-		void DisplayLastWindowsError(LPTSTR lpszFunction = L"");
+		void DisplayLastWindowsError(LPTSTR lpszFunction);
 
 		static LRESULT CALLBACK SplashScreenMsgProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
 
