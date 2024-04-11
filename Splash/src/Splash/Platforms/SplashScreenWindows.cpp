@@ -30,6 +30,10 @@ namespace Splash
 					closeSplashScreen = true;
 				}
 			}
+			else
+			{
+				Sleep(16);
+			}
 		}
 		return 0;
 	}
